@@ -1,0 +1,9 @@
+<div [ngClass]="{'normal': theming==1, 'test': theming==2}">
+    <header-nav [(toggled)]="toggled" [(theming)]="theming"></header-nav>
+    <div id="wrapper" [class.toggled]="toggled">
+        <side-nav id="sidebar-wrapper"></side-nav>
+        <div id="page-content-wrapper">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

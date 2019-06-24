@@ -1,0 +1,36 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  success:    green,
+  danger:     #f53d3d,
+  cancel:     #7d7474,
+  light:      #f8f8f8,
+  dark:       #222,
+  color-1 :   #5FD8C9,
+  color-2 :   #FF7676,
+  color-3 :   #9CE6DD,
+  color-4 :   #58595B,
+  color-5 :   #7D7E7F
+);
+$colors2: (
+  primary:    red,
+  secondary:  #32db64,
+  success:    green,
+  danger:     #f53d3d,
+  cancel:     #7d7474,
+  light:      #f8f8f8,
+  dark:       #222,
+  color-1 :   #5FD8C9,
+  color-2 :   #FF7676,
+  color-3 :   #9CE6DD,
+  color-4 :   #58595B,
+  color-5 :   #7D7E7F
+);

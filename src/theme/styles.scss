@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles-variables";
+@import 'sidebar';
+
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+app-root{
+    .normal{
+        color: map-get($colors,"primary");
+    }
+    .test{
+        color: map-get($colors2,"primary");
+    }
+}
